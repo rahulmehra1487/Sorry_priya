@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sorry Priya ❤️</title>
+
+<style>
+body{
+margin:0;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+background:linear-gradient(135deg,#ff758c,#ff7eb3);
+font-family:Arial;
+overflow:hidden;
+text-align:center;
+color:white;
+}
+
+h1{
+font-size:45px;
+text-shadow:0 0 10px white,0 0 20px pink;
+}
+
+#text{
+font-size:22px;
+max-width:420px;
+min-height:70px;
+margin-bottom:20px;
+}
+
+button{
+padding:12px 25px;
+font-size:18px;
+margin:10px;
+border:none;
+border-radius:12px;
+cursor:pointer;
+}
+
+#yes{
+background:#ff4d6d;
+color:white;
+}
+
+#no{
+background:#333;
+color:white;
+position:absolute;
+}
+
+.heart{
+position:absolute;
+color:#ffd1dc;
+animation:fall 5s linear infinite;
+}
+
+@keyframes fall{
+0%{transform:translateY(-10vh);}
+100%{transform:translateY(110vh);}
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>Priya ❤️</h1>
+<div id="text"></div>
+
+<h3>Will you forgive me?</h
